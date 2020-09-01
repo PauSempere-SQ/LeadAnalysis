@@ -1,0 +1,16 @@
+name: myenv
+dependencies:
+  - python=3.6
+  - flask
+  - pip: 
+    - pandas 
+    - sklearn
+    - lightgbm
+    - jupyter
+    - pyarrow
+    - jupyter
+    - matplotlib
+    - plotly
+    - azureml-sdk[automl,interpret,notebooks]
+    - seaborn
+    - category-encoders
